@@ -1,9 +1,9 @@
 <div align="center">
-    <h1>Welcome to Weeb Wartalap Repository</h1>
+    <h1>Welcome to Weeb Wartalap</h1>
 </div>
 
 ## About
-This Repsoitory houses the website for the podcast weeb wartalap created by OtakuStan. 
+This Repository houses the website for the podcast weeb wartalap created by OtakuStan. 
 
 Weeb Wartalap is a podcast hosted by a group of normie friends talking about Internet culture and weird fetishes after a day's hard labor as slaves of OtakuStan.
 

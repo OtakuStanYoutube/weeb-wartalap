@@ -7,6 +7,8 @@ This Repsoitory houses the website for the podcast weeb wartalap created by Otak
 
 Weeb Wartalap is a podcast hosted by a group of normie friends talking about Internet culture and weird fetishes after a day's hard labor as slaves of OtakuStan.
 
+The backend for this website is going to be powered by our custom internal content management system.
+
 
 ### 🏗️ Built With
 

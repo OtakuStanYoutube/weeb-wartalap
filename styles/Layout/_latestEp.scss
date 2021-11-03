@@ -1,0 +1,64 @@
+.latestEp__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  width: 70vw;
+  margin: 0 auto;
+  margin-bottom: 15rem;
+
+  &::after {
+    content: url("../../public/line.png");
+    position: absolute;
+    bottom: -200px;
+    width: 2px;
+  }
+
+  .latestEp__textArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    position: relative;
+    margin-block: 3rem;
+
+    .latestEp__textArea__number {
+      position: absolute;
+      display: flex;
+      font-size: 240px;
+      font-style: italic;
+      gap: 1rem;
+      color: var(--prime-color);
+      user-select: none;
+
+      & > * {
+        opacity: 25%;
+      }
+
+      .number__outline {
+        color: transparent;
+        -webkit-text-stroke: 2px var(--prime-color);
+      }
+    }
+
+    .latestEp__textArea__sub {
+      color: var(--prime-color);
+      font-size: 48px;
+      z-index: 10;
+    }
+
+    .latestEp__textArea__heading {
+      font-size: 72px;
+      margin-top: -1rem;
+      z-index: 10;
+    }
+  }
+
+  .latestEp__playerEmbed {
+    max-width: 900px;
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+}

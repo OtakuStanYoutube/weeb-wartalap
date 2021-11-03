@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Nav from "src/components/Nav";
 import Hero from "src/Sections/Hero";
 import LatestEp from "src/Sections/LatestEp";
+import Host from "src/Sections/Host";
 
 const Home: NextPage = () => {
   // const scroll_test: any = (e: any) => {
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
         <Nav />
         <Hero />
         <LatestEp />
+        <Host />
       </div>
     </div>
   );

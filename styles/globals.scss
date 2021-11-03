@@ -1,5 +1,6 @@
 @use "Layout/hero";
 @use "Layout/latestEp";
+@use "Layout/hosts";
 @use "Components/nav";
 
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap");
@@ -21,4 +22,8 @@ a {
   box-sizing: border-box;
   --main-bg-col: #0b0b0b;
   --prime-color: #fc8959;
+
+  &::selection {
+    background-color: hsla(18, 96%, 67%, 0.404);
+  }
 }
